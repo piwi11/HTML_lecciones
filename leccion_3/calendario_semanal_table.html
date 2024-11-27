@@ -4,25 +4,30 @@
         <title>Calendario Semanal Goiztiri</title>
         <link rel="icon" type="image/x-icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT32259OpCkW3DTt86RF4DkumWYDaF4l829qQ&s">
         <style>
-            body{}
+            body{
+                                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            }
             table{
-                color: darkkhaki; 
+                color: darkblue; 
                 /* border: 3px solid darkslategrey; */
                 border-width: 3px;
-                border-style: dotted;
+                border-style: dashed;
                 border-color: darkslategrey;
                 border-collapse: collapse;
+                cursor: cell;
             }
-            tr:nth-child(even){background-color: gray;}
-            tr:nth-child(odd){background-color: rgb(245, 250, 205);}
+            tr:nth-child(even){background-color: bisque;}
+            tr:nth-child(odd){background-color: burlywood;}
             tr:nth-child(odd).heading{
-                color: blueviolet;
-                border: 3px solid darkslategray;
-                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-                background-color: blue;
+                color: dimgray;
+                border: 3px solid gray;
+                background-color: whitesmoke;
                 
             }
-            td{border: 3px dotted blueviolet;}
+            td{border: 3px dashed gray;}
+            .cursor_point{
+                cursor: help;
+            }
         </style>
     </head>
     <body>
@@ -37,7 +42,7 @@
             <tr> <td>Euskera</td> <td>✖️</td> <td>✖️</td> <td>✖️</td> <td>✖️</td> <td>✔️</td> <td>09:30 - 10:00</td></tr>
             <tr> <td>Oficios</td> <td>✖️</td> <td>✖️</td> <td>✖️</td> <td>✖️</td> <td>✔️</td> <td>09:00 - 09:15 , 11:30 - 11:45, 12:40 - 13:00</td></tr>
         </table>
-        <H5>Para modificar cualquier cosa pregunta a Martín</H5>
+        <H5 class="cursor_point">Para modificar cualquier cosa pregunta a Martín</H5>
         <a href="file:///C:/Users/Mart%C3%ADn/Desktop/Programacion/goiztiri_web_server/calendario_mejorado.html" target="_blank"><img src="images/m.png" height="20" /></a> 
         <H5>By Ⓜ️artín ®️</H5>
         <H6>mixeln's server</H6>
