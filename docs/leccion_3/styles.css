@@ -1,0 +1,42 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+table{
+    color: darkblue; 
+    /* border: 3px solid darkslategrey; */
+    border-width: 3px;
+    border-style: dashed;
+    border-color: darkslategrey;
+    border-collapse: collapse;
+    cursor: cell;
+    margin: 0 0 338px ;
+}
+tr:nth-child(even){background-color: bisque;}
+tr:nth-child(odd){background-color: burlywood;}
+tr:nth-child(odd).heading{
+    color: dimgray;
+    border: 3px solid gray;
+    background-color: whitesmoke;
+    
+}
+tr td:last-child{
+    text-align: left;
+}
+.heading td {
+    padding: 10px;
+    text-align: left;
+}
+td{
+    border: 3px dashed gray;
+    padding: 3px;
+    text-align: center;
+}
+.nombre_asignatura{
+    font-weight: bold;
+    font-size: large;
+    color: rgb(74, 152, 191);
+    text-align: left;
+}
+.cursor_point{
+    cursor: help;
+}
